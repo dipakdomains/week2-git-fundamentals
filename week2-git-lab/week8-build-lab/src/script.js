@@ -14,5 +14,6 @@ function showWelcomeMessage() {
 showWelcomeMessage();
 
 
-// Intentional bug — undefined variable
-console.log(undeclaredVariable);
+// Fixed — properly declared variable
+const welcomeNote = "About section loaded successfully.";
+console.log(welcomeNote);
