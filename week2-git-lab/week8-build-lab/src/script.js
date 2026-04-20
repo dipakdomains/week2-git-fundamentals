@@ -12,3 +12,8 @@ function showWelcomeMessage() {
 }
 
 showWelcomeMessage();
+
+
+// Fixed — properly declared variable
+const welcomeNote = "About section loaded successfully.";
+console.log(welcomeNote);
