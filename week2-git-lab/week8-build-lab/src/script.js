@@ -12,3 +12,7 @@ function showWelcomeMessage() {
 }
 
 showWelcomeMessage();
+
+
+// Intentional bug — undefined variable
+console.log(undeclaredVariable);
